@@ -1,8 +1,12 @@
 # test_landscapes
-Julia implementations of basic potential energy landscapes for testing sampling, optimization, etc.
+Julia implementations of basic potential energy landscapes for testing sampling,
+optimization, etc.
 
-Currently, these landscapes are in dimensions one and two, but they allow for exploration of multiple minima, along with energetic and entropic bottlenecks.
+Currently, these landscapes are in dimensions one and two, but they allow for
+exploration of multiple minima, along with energetic and entropic bottlenecks.
 
+These codes do **not** include derivatives.  These can be obtained using ForwardDiff,
+https://github.com/JuliaDiff/ForwardDiff.jl
 
 # References
 These landscapes are motivated by the following publications:
