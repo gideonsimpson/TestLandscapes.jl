@@ -1,4 +1,4 @@
-module TestLandScapes2D
+module TestPotentials2D
 # a module of simple potentials for testing optimization and sampling methods in
 # 2D
 
@@ -37,6 +37,11 @@ function Mueller(x)
 
 end
 
+# Banana shaped Rosenbrock potentials with global minimum is located at (a,a²)
+function Rosenbrock(x; a=1.0, b=1.0)
+    return (a-x[1])^2 + b * (x[2]-x[1]^2)^2
+
+end
 
 
 end # module
