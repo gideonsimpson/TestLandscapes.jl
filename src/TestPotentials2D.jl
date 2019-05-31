@@ -38,7 +38,7 @@ function Mueller(x)
 end
 
 # Banana shaped Rosenbrock potentials with global minimum is located at (a,a²)
-function Rosenbrock(x; a=1.0, b=1.0)
+function Rosenbrock(x; a=1.0, b=100.0)
     return (a-x[1])^2 + b * (x[2]-x[1]^2)^2
 
 end
