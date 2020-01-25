@@ -18,9 +18,9 @@ function SymmetricTwoChannel(x)
     + ((x[1]+x[2])^2 - 1 )^2+ ((x[1]-x[2])^2 - 1 )^2);
 end
 
-# Mueller potential
+# Muller potential
 # Three distinct minima and highy asymmetric
-function Mueller(x)
+function Muller(x)
 
     aa = Float64[-1, -1, -6.5, 0.7];
     bb = Float64[0., 0., 11., 0.6];
