@@ -8,6 +8,8 @@ exploration of multiple minima, along with energetic and entropic bottlenecks.
 These codes do **not** include derivatives.  These can be obtained using ForwardDiff,
 https://github.com/JuliaDiff/ForwardDiff.jl
 
+`StaticArrays` is required by some of the potentials.  This  substantially improves performance.
+
 # References
 These landscapes are motivated by the following publications:
 * *Illustration of transition path theory on a collection of simple examples*, Metzner, Schütte, and Vanden-Eijnden, J. Chem. Phys., 125, 084110, 2006.
