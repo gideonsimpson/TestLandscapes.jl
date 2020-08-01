@@ -1,4 +1,4 @@
-# test_landscapes
+# TestLandscapes.jl
 Julia implementations of basic potential energy landscapes for testing sampling,
 optimization, etc.
 
