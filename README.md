@@ -2,6 +2,13 @@
 Julia implementations of basic potential energy landscapes for testing sampling,
 optimization, etc.
 
+This package can be added with the command:
+```
+(@v1.XYZ) pkg> add https://github.com/gideonsimpson/TestLandscapes.jl
+
+```
+
+
 Currently, these landscapes are in dimensions one and two, but they allow for
 exploration of multiple minima, along with energetic and entropic bottlenecks.
 
