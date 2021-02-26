@@ -4,10 +4,9 @@ optimization, etc.
 
 This package can be added with the command:
 ```
-(@v1.XYZ) pkg> add https://github.com/gideonsimpson/TestLandscapes.jl
+(@v1.XYZ) pkg> add TestLandscapes
 
 ```
-
 
 Currently, these landscapes are in dimensions one and two, but they allow for
 exploration of multiple minima, along with energetic and entropic bottlenecks.
@@ -15,7 +14,7 @@ exploration of multiple minima, along with energetic and entropic bottlenecks.
 These codes do **not** include derivatives.  These can be obtained using ForwardDiff,
 https://github.com/JuliaDiff/ForwardDiff.jl
 
-`StaticArrays` is required by some of the potentials.  This  substantially improves performance.
+`StaticArrays` is required by some of the potentials.  This substantially improves performance.
 
 # Acknowledgements
 This work was supported in part by the US National Science Foundation Grant DMS-1818716.
