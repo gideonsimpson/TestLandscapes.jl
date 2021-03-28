@@ -5,3 +5,7 @@ version = "0.1.1"
 
 [deps]
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+[compat]
+julia = "1.5"
+StaticArrays = "1.0"
