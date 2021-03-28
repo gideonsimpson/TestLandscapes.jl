@@ -1,6 +1,9 @@
 """
-EntropicSwitch - Entropically switching potential with three local minima.  It
+`EntropicSwitch` - Entropically switching potential with three local minima.  It
 is symmetric about x=0
+
+### Fields
+* `x` - Position x in R²
 """
 function EntropicSwitch(x)
     return (3 * exp(-x[1]^2 - (x[2]-1/3)^2)
@@ -11,8 +14,11 @@ function EntropicSwitch(x)
 end
 
 """
-SymmetricTwoChannel - Double well potential in 2D with two, symmetric channels
+`SymmetricTwoChannel` - Double well potential in 2D with two, symmetric channels
 joining them.
+
+### Fields
+* `x` - Position x in R²
 """
 function SymmetricTwoChannel(x)
     return 1/6 * (4 * (1-x[1]^2-x[2]^2)^2 + 2 *(x[1]^2-2)^2
@@ -20,7 +26,10 @@ function SymmetricTwoChannel(x)
 end
 
 """
-Muller - The Muller potential with three distinct minima and highy asymmetric.
+`Muller` - The Muller potential with three distinct minima and highy asymmetric.
+
+### Fields
+* `x` - Position x in R²
 """
 function Muller(x)
 
@@ -40,16 +49,25 @@ function Muller(x)
 end
 
 """
-Rosenbrock - Banana shaped Rosenbrock potentials with global minimum is located
+`Rosenbrock` - Banana shaped Rosenbrock potentials with global minimum is located
 at (a,a²).
+
+### Fields
+* `x` - Position x in R²
+### Optional Fields
+* `a = 1.0` - Rosenbrock parameter
+* `b = 100.0` - Rosenbrock parameter
 """
-function Rosenbrock(x; a=1.0, b=100.0)
+function Rosenbrock(x; a = 1.0, b = 100.0)
     return (a-x[1])^2 + b * (x[2]-x[1]^2)^2
 
 end
 
 """
-Zpotential - Z shaped potential.
+`Zpotential` - Z shaped potential.
+
+### Fields
+* `x` - Position x in R²
 """
 function Zpotential(x)
     return (x[1]^4 + x[2]^4)/20480 -
