@@ -8,3 +8,6 @@ Manifest.toml
 *.jl.*.cov
 *.jl.mem
 deps/deps.jl
+
+# vs code files
+.vscode/*
