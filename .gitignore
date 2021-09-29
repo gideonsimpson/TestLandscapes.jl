@@ -11,3 +11,6 @@ deps/deps.jl
 
 # vs code files
 .vscode/*
+
+# scratch files
+notebooks/*
