@@ -8,6 +8,6 @@ export SymmetricDoubleWell, AsymmetricDoubleWell, FatSkinnyDoubleWell10
 
 # 2D potentials
 include("potentials2D.jl")
-export EntropicSwitch, SymmetricTwoChannel, Muller, Rosenbrock, Zpotential
+export EntropicSwitch, SymmetricTwoChannel, Muller, Rosenbrock, Zpotential, EntropicBox
 
 end
