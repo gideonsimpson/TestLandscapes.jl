@@ -81,7 +81,7 @@ end
 
 """
 `EntropicBox` - A potential concentrated in [0,1]² with internal entropic
-barriers.
+barriers.  Formulated by D. Aristoff (Colorado State).
 
 ### Fields
 * `x` - Position x in R²
