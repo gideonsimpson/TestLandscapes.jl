@@ -1,7 +1,7 @@
 name = "TestLandscapes"
 uuid = "acebfb02-3096-4040-86f5-d41b0f19d497"
 authors = ["Gideon Simpson <gideon.simpson@gmail.com>"]
-version = "0.1.2"
+version = "0.2.0"
 
 [compat]
 julia = "1.5"

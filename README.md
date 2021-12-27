@@ -14,7 +14,6 @@ exploration of multiple minima, along with energetic and entropic bottlenecks.
 These codes do **not** include derivatives.  These can be obtained using ForwardDiff,
 https://github.com/JuliaDiff/ForwardDiff.jl
 
-`StaticArrays` is required by some of the potentials.  This substantially improves performance.
 
 # Acknowledgements
 This work was supported in part by the US National Science Foundation Grant DMS-1818716.
