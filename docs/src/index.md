@@ -1,4 +1,5 @@
-# TestLandscapes.jl Documentation
+# TestLandscapes.jl 
+This is a collection of reference energy landscapes that frequently appear in the literature.
 
 ```@contents
 ```
@@ -14,5 +15,13 @@ FatSkinnyDoubleWell10(x)
 EntropicSwitch(x)
 SymmetricTwoChannel(x)
 Muller(x)
+Rosenbrock(x)
+Zpotential(x)
+EntropicBox(x)
+```
+
+## Index
+
+```@index
 ```
 
