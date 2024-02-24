@@ -1,7 +1,5 @@
 # 2D Landscapes
 
-## Functions
-
 ```@docs
 EntropicSwitch(x)
 SymmetricTwoChannel(x)

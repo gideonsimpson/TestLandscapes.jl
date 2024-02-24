@@ -1,7 +1,5 @@
 # 1D Landscapes
 
-## Functions
-
 ```@docs
 SymmetricDoubleWell(x)
 AsymmetricDoubleWell(x)
