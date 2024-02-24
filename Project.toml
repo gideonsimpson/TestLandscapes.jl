@@ -3,5 +3,8 @@ uuid = "acebfb02-3096-4040-86f5-d41b0f19d497"
 authors = ["Gideon Simpson <gideon.simpson@gmail.com>"]
 version = "0.2.0"
 
+[deps]
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
 [compat]
 julia = "1.5"
