@@ -36,7 +36,7 @@ ylabel!("y")
 ```
 
 ```@docs
-Mueller(x)
+Muller(x)
 ```
 This is the Muller, sometimes Muller-Brown, potential, which is regularly used
 as a test problem for sampling, optimization, and related computations.  From Müller (1980).

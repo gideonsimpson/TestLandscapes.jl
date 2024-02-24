@@ -2,6 +2,7 @@
 This is a collection of reference low dimensional energy landscapes that
 frequently appear in the literature.
 
+
 ## Acknowledgements
 This work was supported in part by the US National Science Foundation Grants DMS-1818716 and DMS-2111278.
 
