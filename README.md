@@ -1,6 +1,6 @@
 # TestLandscapes.jl
 
-[![](https://img.shields.io/badge/docs-dev-blue.svg)](https://gideonsimpson.github.io/TestLandscapes.jl/dev)
+[![](https://img.shields.io/badge/docs-stable-blue.svg)](https://gideonsimpson.github.io/TestLandscapes.jl/stable)
 
 Julia implementations of basic potential energy landscapes for testing sampling,
 optimization, etc.
